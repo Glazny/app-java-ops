@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/Glazny/app-java-ops.git', branch: 'main'
+                git url: 'https://github.com/Glazny/app-java.git', branch: 'main'
             }
         }
 
